@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,600,700');
+
+body {
+    font-family:  'Libre Franklin', sans-serif;
+    color: #fff;
+    font-size: 10px;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.2em;
+    padding-bottom: .8em;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 1.4em;
+    width: 60%;
+    padding-bottom: 1.8em;
+    line-height: 1.5em;
+}
+
+.container__item button {
+    font-weight: 700;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1.7em;
+    color: #2490f8;
+    border: solid 2px #2490f8;
+    padding: 1em 1.6em;
+    transition: .35s;
+    cursor: pointer;
+}
+
+.container__item button:hover {
+    color: #fff;
+    background-color: #2490F8;
+}
+
+h1,h2 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container__item {
+    width: 100%;
+    padding: 10em 0;
+    border-bottom: solid 1px #8997a4;
+}
+
+.item-1 {
+    background: url(../images/test.jpg) center center no-repeat;
+    background-size: cover;
+
+}
+
+.item-2 {
+    background: url(../images/test3.jpg) center center no-repeat;  
+    background-size: cover;
+
+}
+
+.item-3 {
+    background: url(../images/test2.jpg) center center no-repeat;
+    background-size: cover;
+
+}
+
+@media(min-width: 70em){
+    
+    body {
+        padding-top: 200px;
+    }
+    
+      .container__item {
+          width: 33.33%;
+    }
+    
+    h1 {
+    font-size: 2.6em;
+}
+
+h2 {
+    font-size: 1.8em;
+
+    }
+}
