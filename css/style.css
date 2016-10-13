@@ -9,13 +9,13 @@ body {
 
 h1 {
     font-weight: 700;
-    font-size: 2.2em;
+    font-size: 2.3em;
     padding-bottom: .8em;
 }
 
 h2 {
     font-weight: 400;
-    font-size: 1.4em;
+    font-size: 1.5em;
     width: 60%;
     padding-bottom: 1.8em;
     line-height: 1.5em;
@@ -55,28 +55,27 @@ h1,h2 {
 .container__item {
     width: 100%;
     padding: 10em 0;
-    border-bottom: solid 1px #8997a4;
 }
 
 .item-1 {
-    background: url(../images/test.jpg) center center no-repeat;
+    background: url(../images/website.jpg) center center no-repeat;
     background-size: cover;
 
 }
 
 .item-2 {
-    background: url(../images/test3.jpg) center center no-repeat;  
+    background: url(../images/bug.jpg) center center no-repeat;  
     background-size: cover;
 
 }
 
 .item-3 {
-    background: url(../images/test2.jpg) center center no-repeat;
+    background: url(../images/design.jpg) center center no-repeat;
     background-size: cover;
 
 }
 
-@media(min-width: 70em){
+@media(min-width: 75em){
     
     body {
         padding-top: 200px;
